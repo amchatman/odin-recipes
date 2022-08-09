@@ -1,0 +1,14 @@
+*{
+  margin:0;
+  padding:0;
+}
+img{
+    width:200px;
+}
+.container{
+    margin:auto;
+    width:600px;
+}
+h1,h4{
+    text-align:center;
+}
