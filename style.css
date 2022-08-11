@@ -1,23 +1,28 @@
 *{
-  margin:0;
-  padding:0;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:crimson text,Georgia,serif;
+    background-color:#574B31;
 }
 .container{
-    margin:auto;
     width:600px;
-}
-img{
-    width:300px;
-    display:block;
     margin:auto;
+  
 }
-h1,h4{
+.container h1,h4{
     text-align:center;
 }
-
-ul{
-    text-align:center;
+.crawfish-img{
+    width:100%;
 }
-.indigrents,.instruction{
-    text-align:left;
+.recipe-list{
+    text-align:center;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    font-size:25px;
+    color:#F2E4D2;
 }
