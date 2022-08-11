@@ -2,13 +2,22 @@
   margin:0;
   padding:0;
 }
-img{
-    width:200px;
-}
 .container{
     margin:auto;
     width:600px;
 }
+img{
+    width:300px;
+    display:block;
+    margin:auto;
+}
 h1,h4{
     text-align:center;
+}
+
+ul{
+    text-align:center;
+}
+.indigrents,.instruction{
+    text-align:left;
 }
