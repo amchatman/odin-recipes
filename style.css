@@ -7,37 +7,49 @@
     --black:#0d0d0d;
     --secondary-color:#BFB39B;
     --shadow:#B2A084;
+    --hover-color:#73613F;
 }
 body{
     font-family:crimson text,Georgia,serif;
     background-color:var(--primary-color);
 }
-.container{
-    width:600px;
-    margin:auto;
-}
-.container h1,h4{
+.container h1,h2{
     text-align:center;
 }
 .crawfish-img{
-    width:100%;
+    margin:15px;
 }
 .recipe-list{
     text-align:center;
     list-style:none;
 }
-.recipe-container{
+.recipe-list li{
+    margin:15px;
+}
+.recipe-list a{
+    text-decoration:none;
+    font-size:20px;
+    color:var(--black);
+}
+.recipe-list a:hover{
+    color:var(--hover-color);
+}
+.recipe-container,.container{
     width:80%;
     margin:60px auto;
     border:2px solid var(--black);
 }
 .site-title{
     margin:15px;
+    text-transform:uppercase;
 }
 .site-title a{
     text-decoration:none;
     text-transform:uppercase;
     color:var(--black);
+}
+.site-title a:hover{
+    color:var(--hover-color);
 }
 .recipe-title{
     text-align:center;
@@ -112,4 +124,38 @@ hr{
     width: inherit;
     height: inherit;    
 
+}
+/*Mobile Devices*/
+@media(max-width:768px){
+    .crawfish-img{
+        margin:0;
+    }
+    .site-title{
+        text-align:center;
+    }
+    .recipe-container{
+        width:90%;
+    }
+    .recipe-title{
+        text-align:center;
+        font-size:32px;
+        width:90%;    
+    }
+    .description{
+        margin:auto;
+        width:90%;
+    }
+    .ingredients-container{
+        width:80%;
+    }
+    .content{
+        display:block;
+      }
+      .instructions-container{
+        width:80%;
+        height:auto;
+        margin:15px;
+        padding:15px;
+      
+    }
 }
