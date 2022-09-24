@@ -2,7 +2,7 @@
 
 
 ## Languages use:
-The program makes use of the following languages: HTML and CSS.
+This website was built using the following  languages: HTML5 and CSS3.
 
 
 ### Homepage
