@@ -29,6 +29,10 @@ h4{
     margin:0 auto;
     border:3px solid var(--lightgold);
 }
+.image-link{
+    color:var(--lightgold);
+    text-decoration:none;
+}
 .velvet{
     background-image:url(images/baiq-daling-TjJUX7pyUqI-unsplash.jpg);
 }
@@ -39,7 +43,10 @@ h4{
     background-image:url(images/dragne-marius-EdzsUFqHbaY-unsplash.jpg);
 }
 .gumbo{
-    background-image:url(images/roni-herdyanzah-vrX8M4Plu8U-unsplash.jpg)
+    background-image:url(images/roni-herdyanzah-vrX8M4Plu8U-unsplash.jpg);
+}
+.crawfish{
+    background-image:url(images/vino-li-TqOEGdRNowY-unsplash.jpg);
 }
 .recipe-title{
     text-align:center;
@@ -63,4 +70,16 @@ h4{
     padding:5px;
     font-size:14px;
     list-style:none;
+}
+/*--- Desktop --- */
+@media(min-width:600px){
+    .description{
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .ingredients,.instructions{
+        margin: 20px auto;
+        width: 550px;
+    }
 }
