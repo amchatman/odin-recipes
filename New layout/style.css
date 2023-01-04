@@ -6,10 +6,15 @@
     --black:#0D0D0D;
     --brown:#262424;
     --lightgold:#F2E2C4;
+    --darkgold:#F2CA99;
 }
 body{
     background-color:var(--black);
-    color:white;
+    color:var(--darkgold);
+}
+h4{
+    padding-top:5px;
+    padding-bottom:5px
 }
 .page-title{
     text-align:center;
@@ -17,12 +22,18 @@ body{
     font-family:'Cinzel', serif;
 }
 .image{
-    background-image:url(images/baiq-daling-TjJUX7pyUqI-unsplash.jpg);
     width:280px;
     height:280px;
     background-size:cover;
     border-radius:50%;
     margin:0 auto;
+    border:3px solid var(--lightgold);
+}
+.velvet{
+    background-image:url(images/baiq-daling-TjJUX7pyUqI-unsplash.jpg);
+}
+.shortcake{
+    background-image:url(images/blake-yuto-rBmLu0s5z2s-unsplash.jpg);
 }
 .recipe-title{
     text-align:center;
@@ -35,6 +46,12 @@ body{
     padding:20px;
     margin:20px;
     font-family: 'Lato', sans-serif;
+    border-radius:3px;
+}
+.description{
+    font-family: 'Lato', sans-serif;
+    color:var(--lightgold);
+    text-align:center;
 }
 .ingredients li,.instructions li{
     padding:5px;
