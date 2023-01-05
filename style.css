@@ -1,161 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 *{
     margin:0;
     padding:0;
-}
-:root{
-    --primary-color:#D9CAB8;
-    --black:#0d0d0d;
-    --secondary-color:#BFB39B;
-    --shadow:#B2A084;
-    --hover-color:#73613F;
+    --black:#0D0D0D;
+    --brown:#262424;
+    --lightgold:#F2E2C4;
+    --darkgold:#F2CA99;
 }
 body{
-    font-family:crimson text,Georgia,serif;
-    background-color:var(--primary-color);
+    background-color:var(--black);
+    color:var(--darkgold);
 }
-.container h1,h2{
+h4{
+    padding-top:5px;
+    padding-bottom:5px
+}
+.page-title{
     text-align:center;
+    padding:30px;
+    font-family:'Cinzel', serif;
 }
-.crawfish-img{
-    margin:15px;
+.image{
+    width:280px;
+    height:280px;
+    background-size:cover;
+    border-radius:50%;
+    margin:0 auto;
+    border:3px solid var(--lightgold);
 }
-.recipe-list{
-    text-align:center;
-    list-style:none;
-}
-.recipe-list li{
-    margin:15px;
-}
-.recipe-list a{
+.image-link{
+    color:var(--lightgold);
     text-decoration:none;
-    font-size:20px;
-    color:var(--black);
 }
-.recipe-list a:hover{
-    color:var(--hover-color);
-}
-.recipe-container,.container{
-    width:80%;
-    margin:60px auto;
-    border:2px solid var(--black);
-}
-.site-title{
-    margin:15px;
-    text-transform:uppercase;
-}
-.site-title a{
+.title-link{
+    color:var(--darkgold);
     text-decoration:none;
-    text-transform:uppercase;
-    color:var(--black);
 }
-.site-title a:hover{
-    color:var(--hover-color);
+.velvet{
+    background-image:url(images/baiq-daling-TjJUX7pyUqI-unsplash.jpg);
+}
+.shortcake{
+    background-image:url(images/blake-yuto-rBmLu0s5z2s-unsplash.jpg);
+}
+.redbeans{
+    background-image:url(images/dragne-marius-EdzsUFqHbaY-unsplash.jpg);
+}
+.gumbo{
+    background-image:url(images/roni-herdyanzah-vrX8M4Plu8U-unsplash.jpg);
+}
+.crawfish{
+    background-image:url(images/vino-li-TqOEGdRNowY-unsplash.jpg);
 }
 .recipe-title{
     text-align:center;
-    font-size:40px;
-    text-transform:uppercase;
-    background-color:var(--black);
-    color:var(--primary-color);
-    width:50%;
-    margin:auto;
-    margin-bottom:20px;
-}
-hr{
-    height:4px;
-    background-color:var(--black)
-}
-.description{
-    font-size:18px;
-    margin:20px auto;
-    width:80%;
-    text-align:center;
-    padding:15px;
-}
-.description-hr{
-    height:2px;
-    margin-left:auto;
+    padding-top:20px;
+    font-family: 'Cinzel', serif;
 }
 .ingredients,.instructions{
-    text-transform:uppercase;
-    background-color:var(--black);
-    color:var(--primary-color);
-    margin-bottom:15px;
-    padding:5px;
+    background-color:var(--brown);
+    color:var(--lightgold);
+    padding:20px;
+    margin:20px;
+    font-family: 'Lato', sans-serif;
+    border-radius:3px;
+}
+.description{
+    font-family: 'Lato', sans-serif;
+    color:var(--lightgold);
     text-align:center;
 }
-.ingredients-container{
-    background-color:var(--secondary-color);
-    width:20%;
-    margin:15px;
-    padding:15px;
-    box-shadow: 0px 5px 0px var(--shadow);
-}
-.ingredients-list{
+.ingredients li,.instructions li{
+    padding:5px;
+    font-size:14px;
     list-style:none;
 }
-.ingredients-list li{
-    padding:4px;
+.index-divider{
+    width:500px;
+    margin:30px auto;
+    opacity:0.50;
 }
-.content{
-  display:flex;
-  gap:50px;
-}
-.instructions-container{
-    background-color:var(--secondary-color);
-    height:min-content;
-    margin-top:15px;
-    margin-right:15px;
-    padding:15px;
-    box-shadow: 0px 5px 0px var(--shadow);
-}
-.instructions-list li{
-    padding:4px;
-    margin:10px;
-}
-.image-container{
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    margin: 15px auto;
-}
-.image-container img{
-    object-fit: scale-down;
-    width: inherit;
-    height: inherit;    
-
-}
-/*Mobile Devices*/
-@media(max-width:768px){
-    .crawfish-img{
-        margin:0;
+/*--- Desktop --- */
+@media(min-width:600px){
+    .description{
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
     }
-    .site-title{
-        text-align:center;
+    .ingredients,.instructions{
+        margin: 20px auto;
+        width: 550px;
     }
     .recipe-container{
-        width:90%;
+        display:flex;
+        justify-content:center;
+        margin:20px;
+        padding:20px;
+        gap:20px;
     }
     .recipe-title{
-        text-align:center;
-        font-size:32px;
-        width:90%;    
+        font-size:16px;
     }
-    .description{
-        margin:auto;
-        width:90%;
-    }
-    .ingredients-container{
-        width:80%;
-    }
-    .content{
-        display:block;
-      }
-      .instructions-container{
-        width:80%;
-        height:auto;
-        margin:15px;
-        padding:15px;
-      
+    .velvet,.gumbo,.shortcake,.redbeans{
+        width:200px;
+        height:200px;
+        margin:10px auto;
     }
 }
