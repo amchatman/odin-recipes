@@ -33,6 +33,10 @@ h4{
     color:var(--lightgold);
     text-decoration:none;
 }
+.title-link{
+    color:var(--darkgold);
+    text-decoration:none;
+}
 .velvet{
     background-image:url(images/baiq-daling-TjJUX7pyUqI-unsplash.jpg);
 }
@@ -71,6 +75,11 @@ h4{
     font-size:14px;
     list-style:none;
 }
+.index-divider{
+    width:500px;
+    margin:30px auto;
+    opacity:0.50;
+}
 /*--- Desktop --- */
 @media(min-width:600px){
     .description{
@@ -81,5 +90,20 @@ h4{
     .ingredients,.instructions{
         margin: 20px auto;
         width: 550px;
+    }
+    .recipe-container{
+        display:flex;
+        justify-content:center;
+        margin:20px;
+        padding:20px;
+        gap:20px;
+    }
+    .recipe-title{
+        font-size:16px;
+    }
+    .velvet,.gumbo,.shortcake,.redbeans{
+        width:200px;
+        height:200px;
+        margin:10px auto;
     }
 }
