@@ -1,12 +1,14 @@
 # odin-recipes
 
-
-## Languages use:
-This website was built using the following  languages: HTML5 and CSS3.
-
+##What's new:
+- New responsive layout
+- Mobile view
+- New color scheme
 
 ### Homepage
-![alt text](images/home-screenie.png "Screenshot of home page")
+![alt text](images/screenshot-home.png "Screenshot of home page")
 
 ### Recipe Page
-![alt text](images/recipe-screen.png "Screenshot of recipe page")
+![alt text](images/screen-mobile.png "Screenshot of recipe page")
+
+[^1]:The old layout can be found in the retired layout folder.
