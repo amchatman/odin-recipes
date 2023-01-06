@@ -80,6 +80,17 @@ h4{
     margin:30px auto;
     opacity:0.50;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.credits{
+    text-align:center;
+}
+.credits a{
+    color:var(--darkgold);
+}
 /*--- Desktop --- */
 @media(min-width:600px){
     .description{
