@@ -13,21 +13,20 @@ body{
     color:var(--darkgold);
 }
 h4{
-    padding-top:5px;
-    padding-bottom:5px
+ padding:0.3125rem 0rem 0.3125rem 0rem;
 }
 .page-title{
     text-align:center;
-    padding:30px;
+    padding:1.875rem;
     font-family:'Cinzel', serif;
 }
 .image{
-    width:280px;
-    height:280px;
+    width:17.5rem;
+    height:17.5rem;
     background-size:cover;
     border-radius:50%;
     margin:0 auto;
-    border:3px solid var(--lightgold);
+    border:0.1875rem solid var(--lightgold);
 }
 .image-link{
     color:var(--lightgold);
@@ -54,16 +53,16 @@ h4{
 }
 .recipe-title{
     text-align:center;
-    padding-top:20px;
+    padding-top:1.25rem;
     font-family: 'Cinzel', serif;
 }
 .ingredients,.instructions{
     background-color:var(--brown);
     color:var(--lightgold);
-    padding:20px;
-    margin:20px;
+    padding:1.25rem;
+    margin:1.25rem;
     font-family: 'Lato', sans-serif;
-    border-radius:3px;
+    border-radius:0.1875rem;
 }
 .description{
     font-family: 'Lato', sans-serif;
@@ -71,19 +70,19 @@ h4{
     text-align:center;
 }
 .ingredients li,.instructions li{
-    padding:5px;
-    font-size:14px;
+    padding:0.3125rem;
+    font-size:0.875rem;
     list-style:none;
 }
 .index-divider{
-    width:500px;
-    margin:30px auto;
+    width:31.25rem;
+    margin:1.875rem auto;
     opacity:0.50;
 }
 footer{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin:1.25rem;
 }
 .credits{
     text-align:center;
@@ -94,27 +93,27 @@ footer{
 /*--- Desktop --- */
 @media(min-width:600px){
     .description{
-        width: 500px;
+        width:31.25rem;
         text-align: center;
         margin: 0 auto;
     }
     .ingredients,.instructions{
-        margin: 20px auto;
-        width: 550px;
+        margin:1.25rem auto;
+        width:34.375rem;
     }
     .recipe-container{
         display:flex;
         justify-content:center;
-        margin:20px;
-        padding:20px;
-        gap:20px;
+        margin:1.25rem;
+        padding:1.25rem;
+        gap:1.25rem;
     }
     .recipe-title{
         font-size:16px;
     }
     .velvet,.gumbo,.shortcake,.redbeans{
-        width:200px;
-        height:200px;
-        margin:10px auto;
+        width:12.5rem;
+        height:12.5rem;
+        margin:0.625rem auto;
     }
 }
